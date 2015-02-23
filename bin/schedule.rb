@@ -17,9 +17,10 @@ class GenerateData
         end
         puts ""
         puts "Game Schedule:"
+        puts "Date/Time\t\tOpponent\t\t\t\tLocation"
         team.games.order(:start).each do |game|
           opponent = (game.teams-[team]).first
-          puts "#{game.start.strftime("%m/%d/%Y %I:%M%p")}\t#{opponent.community.name} #{opponent.name} (#{team.slug})\t@#{game.location.name}"
+          puts "#{game.start.strftime("%m/%d/%Y %I:%M%p")}\t#{opponent.community.name} #{opponent.name} (#{team.slug})\t\t@#{game.location.name}"
         end
       end
     end

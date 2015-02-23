@@ -4,3 +4,4 @@
 /db/*.sqlite3-journal
 /.bundle
 /vendor/bundle
+log/
