@@ -1,0 +1,6 @@
+*.DS_Store
+/tmp
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/.bundle
+/vendor/bundle
