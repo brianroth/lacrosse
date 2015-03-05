@@ -1,5 +1,5 @@
 class Team < ActiveRecord::Base
-  attr_accessible :name, :community, :league, :slug
+  attr_accessible :name, :community, :league, :slug, :ngin_code
 
   belongs_to :league
   belongs_to :community
@@ -11,4 +11,5 @@ class Team < ActiveRecord::Base
   validates :slug, presence: true, uniqueness: true
   validates :league, presence: true
   validates :community, presence: true
+  validates :ngin_code, presence: true, uniqueness: true
 end

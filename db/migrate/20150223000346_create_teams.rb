@@ -5,6 +5,7 @@ class CreateTeams < ActiveRecord::Migration
       t.references :community
       t.string :name
       t.string :slug
+      t.integer :ngin_code
     end
   end
 end

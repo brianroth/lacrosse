@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(:version => 20150223003843) do
     t.integer "community_id"
     t.string  "name"
     t.string  "slug"
+    t.integer "ngin_code"
   end
 
 end
