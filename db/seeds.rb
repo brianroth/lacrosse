@@ -184,6 +184,8 @@ class GenerateData
     create_practice("U11-1", "U11-2", eagan_arena, DateTime.parse("Tues, 10 Mar 2015 19:00:00 -0500"))
     create_practice("U11-3", "U11-4", eagan_arena, DateTime.parse("Tues, 10 Mar 2015 20:00:00 -0500"))
 
+    create_practice("U9-6", "U9-7",     eagan_arena, DateTime.parse("Wed, 11 Mar 2015 19:00:00 -0500"))
+
     create_practice("U9-8", "U9-3",   eagan_arena, DateTime.parse("Thurs, 12 Mar 2015 18:00:00 -0500"))
     create_practice("U11-6", "U11-7", eagan_arena, DateTime.parse("Thurs, 12 Mar 2015 19:00:00 -0500"))
     create_practice("U11-5", nil,     eagan_arena, DateTime.parse("Thurs, 12 Mar 2015 20:00:00 -0500"))
@@ -203,6 +205,8 @@ class GenerateData
     create_practice("U9-1", "U9-3",   eagan_arena, DateTime.parse("Tues, 17 Mar 2015 18:00:00 -0500"))
     create_practice("U11-1", "U11-2", eagan_arena, DateTime.parse("Tues, 17 Mar 2015 19:00:00 -0500"))
     create_practice("U11-3", "U11-4", eagan_arena, DateTime.parse("Tues, 17 Mar 2015 20:00:00 -0500"))
+
+    create_practice("U9-6", "U9-7",     eagan_arena, DateTime.parse("Wed, 18 Mar 2015 19:00:00 -0500"))
 
     create_practice("U9-8", "U9-2",   eagan_arena, DateTime.parse("Thurs, 19 Mar 2015 18:00:00 -0500"))
     create_practice("U11-6", "U11-7", eagan_arena, DateTime.parse("Thurs, 19 Mar 2015 19:00:00 -0500"))
